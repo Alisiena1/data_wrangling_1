@@ -24,3 +24,11 @@ pups_df =
 
 litters_df = janitor::clean_names(pups_df)
 ```
+
+
+## Look at the data
+
+```{r}
+litters_df
+pups_df
+```
