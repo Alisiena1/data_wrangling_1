@@ -9,3 +9,10 @@ This file is for doing data import.
 ````{r}
 library(tidyverse)
 ````
+
+```{r}
+litters_df =
+  read_csv(file = "data/FAS_litters.csv")
+
+litters_df = janitor::clean_names(litters_df)
+```
