@@ -16,3 +16,11 @@ litters_df =
 
 litters_df = janitor::clean_names(litters_df)
 ```
+
+
+```{r}
+pups_df =
+  read_csv(file = "data/FAS_pups.csv", skip = 3)
+
+litters_df = janitor::clean_names(pups_df)
+```
